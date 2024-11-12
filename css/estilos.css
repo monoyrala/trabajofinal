@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* RESET */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+/* ESTILOS GLOBALES */
+html{
+    font-size: 62.5%;
+
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Outfit", sans-serif;
+    background-color: #FAF6E3;
+}
+
+img {
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B59F78;
+}
+
+header img {
+    width: 150px;
+}
+
+header h1 {
+    /* font-family: "Concert One", sans-serif; */
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.navHeader{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+/* LOGO */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* BOTONES */
+
+.botonAdoptar, .botonDonar {
+    border: none;
+    background-color: #2A3663;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.botonDonar{
+    background-color: #D8DBBD;
+    color: #000;
+}
+
+.btnContacto{
+    border: none;
+    background-color: #2A3663;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: .5rem;
+    margin-right: 1rem;
+}
+
+/* ASIDE */
+aside {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    
+}
+aside img {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.asideButtons {
+    display: flex;
+    gap: 3rem;
+}
+
+.container_flex {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.container_cards{
+    display: flex;
+    gap: 1rem;
+}
+/* ARTICLE */
+article {
+    width: 90%;
+    background-color: #fff;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    box-shadow: -9px 11px 9px -9px rgba(181,159,120,0.75);
+   
+}
+
+article h2{
+    text-transform: uppercase;
+}
+
+article img {
+    width: 300px;
+}
+
+
+footer {
+    background-color: #b59f78 ;
+    text-align: center;
+}
+
+.carousel{
+  
+  max-width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
