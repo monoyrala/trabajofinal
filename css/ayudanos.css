@@ -1,0 +1,304 @@
+/* Estilos para la sección "Ayúdanos" */
+.ayudanos {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+  
+  .titulo-ayudanos {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .intro-ayudanos {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .opciones-ayuda {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .opcion {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .opcion:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .opcion h3 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .opcion p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .btn-donacion,
+  .btn-voluntariado,
+  .btn-eventos {
+    padding: 12px 25px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn-donacion:hover,
+  .btn-voluntariado:hover,
+  .btn-eventos:hover {
+    background-color: #2980b9;
+  }
+  
+  .info-contacto {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .info-contacto a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .info-contacto a:hover {
+    text-decoration: underline;
+  }
+
+  /* Estilos para la sección "Acerca de" */
+.acerca-de {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+  
+  .titulo-acerca-de {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .intro-acerca-de {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .mision-vision {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .mision, .vision {
+    width: 45%;
+  }
+  
+  .mision h3, .vision h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .mision p, .vision p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .valores {
+    margin-bottom: 40px;
+  }
+  
+  .valores h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .valores ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .valores li {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .equipo {
+    text-align: center;
+  }
+  
+  .equipo h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .equipo p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .miembros-equipo {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .miembro {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .foto-miembro {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 200px;
+    margin-bottom: 15px;
+  }
+  
+  .miembro h4 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .miembro p {
+    font-size: 1rem;
+    color: #666;
+  }
+/* Estilos para la sección "Contacto" */
+.contacto {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+  
+  .titulo-contacto {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .intro-contacto {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .formulario-contacto {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .formulario-contacto .campo {
+    margin-bottom: 15px;
+  }
+  
+  .formulario-contacto label {
+    font-size: 1.1rem;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formulario-contacto input,
+  .formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .formulario-contacto button {
+    padding: 12px 25px;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .formulario-contacto button:hover {
+    background-color: #2980b9;
+  }
+  
+  .informacion-contacto {
+    text-align: center;
+  }
+  
+  .informacion-contacto h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .informacion-contacto p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .informacion-contacto .detalles-contacto p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .informacion-contacto ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .informacion-contacto ul li {
+    font-size: 1.1rem;
+    color: #3498db;
+    margin-bottom: 8px;
+  }
+  
+  .informacion-contacto ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .informacion-contacto ul li a:hover {
+    text-decoration: underline;
+  }
+    
+  

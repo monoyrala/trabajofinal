@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ayudanos.css">
+</head>
+<body>
+    <section class="ayudanos" id="ayudanos">
+        <div class="container">
+          <h2 class="titulo-ayudanos">¡Ayúdanos a Cambiar Vidas!</h2>
+          <p class="intro-ayudanos">Nuestro refugio depende de la generosidad de personas como tú para continuar ofreciendo un hogar seguro y amoroso a los animales rescatados. Existen varias formas en las que puedes ayudar. ¡Juntos podemos hacer una gran diferencia!</p>
+      
+          <div class="opciones-ayuda">
+            <div class="opcion">
+              <h3>Haz una Donación</h3>
+              <p>Las donaciones económicas nos permiten cubrir los gastos de alimentación, atención veterinaria y otros cuidados esenciales para nuestros animales. Cada pequeña contribución suma y marca la diferencia en la vida de un animal rescatado.</p>
+              <a href="#donaciones" class="btn-donacion">Donar Ahora</a>
+            </div>
+      
+            <div class="opcion">
+              <h3>Voluntariado</h3>
+              <p>El tiempo y dedicación de nuestros voluntarios son esenciales para el bienestar de los animales. Si tienes amor por los animales y tiempo libre, ¡únete a nuestro equipo de voluntarios! Puedes ayudar con tareas de cuidado, paseos, limpieza o incluso promocionar nuestras adopciones.</p>
+              <a href="#formulario-voluntariado" class="btn-voluntariado">Voluntariarme</a>
+            </div>
+      
+            <div class="opcion">
+              <h3>Participa en Nuestros Eventos</h3>
+              <p>Organizamos eventos como ferias de adopción, subastas benéficas y carreras para recaudar fondos. Estos eventos son una excelente oportunidad para apoyar al refugio y disfrutar de un día en familia o con amigos. ¡Esperamos verte en nuestro próximo evento!</p>
+              <a href="#eventos" class="btn-eventos">Ver Próximos Eventos</a>
+            </div>
+          </div>
+      
+          <div class="info-contacto">
+            <p>¿Tienes alguna otra idea para ayudarnos o preguntas? ¡Estamos aquí para ti! No dudes en <a href="#formulario-contacto" class="enlace-contacto">contactarnos</a>.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="acerca-de" id="acerca-de">
+        <div class="container">
+          <h2 class="titulo-acerca-de">Conoce Nuestro Refugio</h2>
+          <p class="intro-acerca-de">En nuestro refugio, nos dedicamos a rescatar, cuidar y encontrar hogares responsables para perros y gatos en situación de abandono. Nuestra misión es mejorar la calidad de vida de nuestros animales y darles una segunda oportunidad.</p>
+      
+          <div class="mision-vision">
+            <div class="mision">
+              <h3>Misión</h3>
+              <p>Proporcionar un refugio seguro y lleno de amor para perros y gatos, mientras trabajamos en su rehabilitación física y emocional. Nuestro objetivo es que cada animal rescatado tenga la oportunidad de encontrar un hogar donde sea amado y cuidado.</p>
+            </div>
+      
+            <div class="vision">
+              <h3>Visión</h3>
+              <p>Convertirnos en un referente en el cuidado animal y en la promoción de la adopción responsable. Queremos que cada vez más personas se sumen a la causa y contribuyan a reducir la cantidad de animales abandonados en nuestras calles.</p>
+            </div>
+          </div>
+      
+          <div class="valores">
+            <h3>Valores</h3>
+            <ul>
+              <li><strong>Compromiso:</strong> Nos dedicamos con pasión y responsabilidad al cuidado de los animales.</li>
+              <li><strong>Empatía:</strong> Comprendemos las necesidades y sentimientos de los animales y buscamos lo mejor para ellos.</li>
+              <li><strong>Transparencia:</strong> Actuamos con honestidad y claridad en todas nuestras acciones.</li>
+              <li><strong>Trabajo en equipo:</strong> Colaboramos juntos para alcanzar nuestro objetivo común de ofrecerles una nueva oportunidad a los animales.</li>
+              <li><strong>Adopción responsable:</strong> Promovemos la adopción con conciencia y aseguramos que los animales encuentren hogares que los cuiden a largo plazo.</li>
+            </ul>
+          </div>
+      
+          <div class="equipo">
+            <h3>Conoce a Nuestro Equipo</h3>
+            <p>Detrás de cada rescate, hay un equipo de personas comprometidas y apasionadas por el bienestar animal. Nuestro equipo está formado por veterinarios, cuidadores, voluntarios y otros colaboradores que trabajan día a día para hacer de este refugio un lugar mejor.</p>
+      
+            <div class="miembros-equipo">
+              <div class="miembro">
+                <img src="veterinario.jpg" alt="Veterinario" class="foto-miembro">
+                <h4>Dr. Juan Pérez</h4>
+                <p>Veterinario Jefe</p>
+              </div>
+              <div class="miembro">
+                <img src="maria.jpg" alt="María Gómez" class="foto-miembro">
+                <h4>María Gómez</h4>
+                <p>Coordinadora de Adopciones</p>
+              </div>
+              <div class="miembro">
+                <img src="lucas.jpg" alt="Lucas Rodríguez" class="foto-miembro">
+                <h4>Lucas Rodríguez</h4>
+                <p>Voluntario Principal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacto" id="contacto">
+        <div class="container">
+          <h2 class="titulo-contacto">¡Estamos Aquí para Ayudarte!</h2>
+          <p class="intro-contacto">Si tienes alguna pregunta, deseas más información sobre nuestros animales en adopción o quieres ser voluntario, no dudes en ponerte en contacto con nosotros. ¡Estaremos encantados de atenderte!</p>
+      
+          <div class="formulario-contacto">
+            <form action="/enviar-contacto" method="POST">
+              <div class="campo">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" required>
+              </div>
+      
+              <div class="campo">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+      
+              <div class="campo">
+                <label for="telefono">Número de Teléfono</label>
+                <input type="tel" id="telefono" name="telefono">
+              </div>
+      
+              <div class="campo">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+              </div>
+      
+              <div class="campo">
+                <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+              </div>
+            </form>
+          </div>
+      
+          <div class="informacion-contacto">
+            <h3>Otras formas de contactarnos</h3>
+            <p>Si prefieres comunicarte de forma directa, puedes llamarnos, enviarnos un mensaje a nuestras redes sociales o visitarnos en el refugio.</p>
+      
+            <div class="detalles-contacto">
+              <p><strong>Dirección:</strong> Calle de los Animales, 123, Ciudad, País</p>
+              <p><strong>Teléfono:</strong> +1 234 567 890</p>
+              <p><strong>Redes Sociales:</strong></p>
+              <ul>
+                <li><a href="https://facebook.com/refugio" target="_blank">Facebook</a></li>
+                <li><a href="https://instagram.com/refugio" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/refugio" target="_blank">Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+            
+      
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <section class="formulario-adopcion" id="formulario">
+        <div class="container">
+          <h2>Formulario de Adopción</h2>
+          <p>Gracias por considerar la adopción de uno de nuestros peluditos. Por favor, completa este formulario para iniciar el proceso de adopción.</p>
+          
+          <form action="/procesar-adopcion" method="POST" class="formulario">
+            <!-- Información personal -->
+            <h3>Información Personal</h3>
+            <div class="campo">
+              <label for="nombre">Nombre Completo</label>
+              <input type="text" id="nombre" name="nombre" required>
+            </div>
+            
+            <div class="campo">
+              <label for="email">Correo Electrónico</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+      
+            <div class="campo">
+              <label for="telefono">Número de Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" required>
+            </div>
+      
+            <div class="campo">
+              <label for="direccion">Dirección Completa</label>
+              <input type="text" id="direccion" name="direccion" required>
+            </div>
+      
+            <!-- Información sobre el hogar -->
+            <h3>Información sobre tu hogar</h3>
+            <div class="campo">
+              <label for="tipo-casa">¿Vives en una casa o departamento?</label>
+              <select id="tipo-casa" name="tipo-casa" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Casa">Casa</option>
+                <option value="Departamento">Departamento</option>
+              </select>
+            </div>
+      
+            <div class="campo">
+              <label for="espacio">¿Tienes espacio suficiente para un animal (jardín, patio, etc.)?</label>
+              <select id="espacio" name="espacio" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Sí">Sí</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+      
+            <div class="campo">
+              <label for="personas-en-casa">¿Cuántas personas viven en tu hogar?</label>
+              <input type="number" id="personas-en-casa" name="personas-en-casa" required>
+            </div>
+      
+            <div class="campo">
+              <label for="otros-animales">¿Tienes otros animales en casa?</label>
+              <select id="otros-animales" name="otros-animales" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Sí">Sí</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+      
+            <!-- Información sobre el animal -->
+            <h3>Información sobre el animal que deseas adoptar</h3>
+            <div class="campo">
+              <label for="nombre-animal">Nombre del animal que deseas adoptar</label>
+              <input type="text" id="nombre-animal" name="nombre-animal" required>
+            </div>
+      
+            <div class="campo">
+              <label for="razon-adopcion">¿Por qué deseas adoptar a este animal?</label>
+              <textarea id="razon-adopcion" name="razon-adopcion" required></textarea>
+            </div>
+      
+            <div class="campo">
+              <label for="experiencia">¿Tienes experiencia previa con animales?</label>
+              <select id="experiencia" name="experiencia" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Sí">Sí</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+      
+            <!-- Compromiso -->
+            <div class="campo">
+              <label for="compromiso">
+                <input type="checkbox" id="compromiso" name="compromiso" required>
+                Acepto el compromiso de cuidar al animal adoptado de manera responsable.
+              </label>
+            </div>
+      
+            <!-- Enviar formulario -->
+            <div class="campo">
+              <button type="submit" class="btn-enviar">Enviar Solicitud</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      
+    
+</body>
+</html>

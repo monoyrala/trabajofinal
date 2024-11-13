@@ -1,0 +1,28 @@
+Combinación Final (Paleta Completa):
+Color Primario: Verde Menta (#A8D5BA) — Refleja la naturaleza y el bienestar.
+Color Secundario: Verde Musgo (#2E8B57) — Genera confianza y estabilidad.
+Color de Acento: Naranja Suave (#F39C12) — Aporta energía y optimismo.
+Color Neutro: Beige Claro (#F5F5DC) — Crea un ambiente acogedor.
+Color Llamativo (Acción): Verde Lima Neón (#A9DFBF) — Atrae la atención sin ser invasivo.
+Toque Adicional: Rosa Pastel (#F8BBD0) y Amarillo Mostaza (#F1C40F) — Añaden calidez y un toque amigable.
+¿Cómo Aplicar Esta Paleta en tu Web?
+Colores para el Fondo:
+
+Utiliza el blanco suave o gris claro para los fondos principales de las páginas.
+Emplea el beige claro para áreas como los encabezados, barras laterales o fondos de secciones.
+Botones y Llamadas a la Acción:
+
+Los botones de acción, como "Adoptar ahora", "Hacer una donación" o "Contacta con nosotros", pueden estar en verde lima neón o naranja suave para que se destaquen.
+Usa rosa pastel o amarillo mostaza para botones o detalles que no sean tan urgentes pero que aún deben captar atención.
+Secciones del Sitio:
+
+Para las secciones informativas o educativas (sobre adopciones, cuidados de animales, etc.), usa verde musgo o verde menta como colores de fondo con textos en blanco o gris oscuro.
+Las imágenes de los animales deben resaltar sobre estos fondos suaves, por lo que asegúrate de que las imágenes sean luminosas y bien recortadas.
+Texto y Tipografía:
+
+El texto principal debe ser gris oscuro o negro, mientras que los subtítulos pueden estar en tonos de verde musgo o naranja suave.
+Asegúrate de usar tipografías claras y legibles, preferiblemente sans-serif para mantener el diseño moderno y accesible.
+Detalles Interactivos:
+
+Añade efectos hover (cuando el usuario pasa el mouse sobre un enlace o botón) en verde lima neón o amarillo mostaza para resaltar la interacción.
+Los iconos de redes sociales podrían tener detalles en rosa pastel o naranja suave para hacerlo amigable.

@@ -1,0 +1,115 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .titulo-adopcion {
+    font-size: 5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .intro {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Steps List */
+  ol.pasos-adopcion {
+    padding-left: 20px;
+  }
+  
+  .pasos-adopcion li {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Animal Gallery */
+  .galeria-adopcion {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .animal {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 30%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .foto-animal {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .animal h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .animal p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .btn-adoptar {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn-adoptar:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Requirements */
+  .requisitos {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .requisitos li {
+    font-size: 1.8rem;
+    color: #666;
+  }
+  
+  /* Contact button */
+  .btn-contacto {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .btn-contacto:hover {
+    background-color: #27ae60;
+  }
+  
