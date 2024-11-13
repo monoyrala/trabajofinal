@@ -1,6 +1,3 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -22,7 +19,8 @@ html{
 body {
     font-size: 1.6rem;
     font-family: "Outfit", sans-serif;
-    background-color: #FAF6E3;
+    background-color: #F5F5F5;
+    color: #333
 }
 
 img {
@@ -31,7 +29,7 @@ img {
 
 a{
     text-decoration: none;
-    color: black;
+    color: #333;
 }
 
 /* HEADER */
@@ -39,7 +37,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #B59F78;
+    background-color: #2C3E50;
     padding: 1rem;
 }
 
@@ -52,10 +50,12 @@ header img {
     font-family: "Sour Gummy", sans-serif;
     font-size: 4rem;
     text-transform: uppercase;
+    color: #ECF0F1;
 }
 
 .textoTitulo h1 {
     font-size: 2rem;
+    color: #ECF0F1;
 }
 
 .navHeader{
@@ -67,9 +67,10 @@ header img {
 
 .navLinks {
     font-size: 1.8rem;
+    color: #ECF0F1;
 }
 .navLinks:hover {
-    border: solid;
+    border: solid 2px #3498DB;
     width: 100px;
     height: 30px;
     cursor: pointer;
@@ -89,28 +90,29 @@ header img {
 
 .botonAdoptar, .botonDonar {
     border: none;
-    background-color: #2A3663;
+    background-color: #3498DB;
     width: 200px;
     height: 30px;
     cursor: pointer;
     color: #fff;
+    border-radius: 5px;
 }
 
 .botonAdoptar:hover{
-    background-color: #1d2544;
+    background-color: #2980B9;
 }
 .botonDonar{
-    background-color: #D8DBBD;
-    color: #000;
+    background-color: #1ABC9C;
+    color: #fff;
 }
 
 .botonDonar:hover{
-    background-color: #727272;
+    background-color: #16A085;;
 }
 
 .btnContacto{
     border: none;
-    background-color: #2A3663;
+    background-color: #2ECC71;
     width: 100px;
     height: 32px;
     cursor: pointer;
@@ -121,7 +123,7 @@ header img {
 }
 
 .btnContacto:hover{
-    background-color: #1d2544;
+    background-color: #27AE60;
     transform: scale(1.1);
 }
 
@@ -152,7 +154,7 @@ aside img {
     margin: 0 auto;
     width: 90%;
     background-color: #FFF;
-    box-shadow: 0px 0px 15px 0px rgba(40, 39, 39, 0.5);
+    box-shadow: 0px 0px 15px 0px rgba(40, 39, 39, 0.1);
 }
 .container_cards{
     display: flex;
@@ -166,12 +168,12 @@ aside img {
 article {
     width: 20rem;
     height: 40rem;
-    background-color: #eaebe6;
+    background-color: #ECF0F1;
     text-align: center;
     padding: 2rem;
     margin: 2.5rem;
     border-radius: .5rem;
-    box-shadow: -9px 11px 9px -9px rgba(181,159,120,0.75);
+    box-shadow: -9px 11px 9px -9px rgba(181,159,120,0.5);
     max-width: 100%;
     
    
@@ -188,6 +190,7 @@ padding-top: 2.5rem;
 
 article h2{
     text-transform: uppercase;
+    color: #3498DB;
 }
 
 article img {
@@ -196,13 +199,22 @@ article img {
 
 article a{
     margin-top: 2rem;
+    background-color: #2ECC71; 
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
 }
+
+article a:hover {
+    background: #27AE60; 
+}
+
 .info-btn{
     margin-bottom: 2rem;
 }
 
 footer {
-    background-color: #b59f78 ;
+    background-color: #2C3E50 ;
     text-align: center;
     padding: 1rem;
     margin: 0;
@@ -210,6 +222,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 footer li {
@@ -222,10 +235,11 @@ footer li {
 .sociales i {
     font-size: 4rem;
     margin: 1rem;
+    color: #fff;
 }
 
 .sociales i:hover {
-    color: #fff;
+    color: #3498DB;
     transform: scale(1.3);
 }
 .logoFooter{
@@ -245,14 +259,14 @@ main{
 }
 
 article a {
-    background-color: #2A3663;
+    background-color: #2ECC71;
     color: #fff;
     padding: 1rem;
    
 }
 
 article a:hover {
-    background: #1d2544;
+    background: #27AE60;
 }
 
 
@@ -263,7 +277,10 @@ article a:hover {
 }
 
 article a i {
-    color: red;
+    color:#fff;
+}
+article a i:hover {
+    color: #ff0000;
 }
 
 article li {
