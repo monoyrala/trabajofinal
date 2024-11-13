@@ -180,9 +180,9 @@ article {
 }
 article:hover{
     /* transform: scale(1.1); */
-    width: 22rem;
-    height: 42rem;
-padding-top: 2.5rem;
+    width: 20rem;
+    height: 41rem;
+padding-top: 2.3rem;
     /* padding:2.5rem;
     margin: 3rem; */
     box-shadow: -10px 12px 10px -10px rgb(129, 113, 86);
