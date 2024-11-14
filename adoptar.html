@@ -45,7 +45,7 @@
               <ol class="pasos-adopcion">
                 <li><strong>Explora nuestros animales:</strong> Navega por nuestra galería de animales disponibles. Cada perfil incluye fotos, información sobre su personalidad, necesidades y cualquier detalle importante sobre su cuidado.</li>
                 <li><strong>Elige a tu compañero ideal:</strong> Si encuentras a un perro o gato que te enamore, contáctanos para saber más. También puedes visitar nuestro refugio y conocer a los animales en persona.</li>
-                <li><strong>Formulario de adopción:</strong> Completa el <a href="#formulario" class="enlace-formulario">Formulario de Adopción</a>. Te haremos algunas preguntas para asegurarnos de que nuestros animales vayan a un hogar seguro y amoroso.</li>
+                <li><strong>Formulario de adopción:</strong> Completa el <a href="#formAdopcion" class="enlace-formulario">Formulario de Adopción</a>. Te haremos algunas preguntas para asegurarnos de que nuestros animales vayan a un hogar seguro y amoroso.</li>
                 <li><strong>Visita de adopción:</strong> Tras recibir tu formulario, coordinaremos una visita para que conozcas a tu futuro compañero. Si todo va bien, te ayudaremos a completar los trámites.</li>
                 <li><strong>Adopción y seguimiento:</strong> Una vez completado el proceso, ¡el animal se convierte oficialmente en parte de tu familia! Seguiremos en contacto para asegurarnos de que todo vaya bien en su nuevo hogar.</li>
               </ol>
@@ -53,25 +53,25 @@
               <h2>Algunos de nuestros Perros y Gatos Disponibles para Adopción</h2>
               <div class="galeria-adopcion">
                 <div class="animal">
-                  <img src="max.jpg" alt="Max" class="foto-animal">
+                  <img src="img/perro1.jpg" alt="Max" class="foto-animal">
                   <h3>Max - Labrador amigable</h3>
                   <p><strong>Edad:</strong> 3 años</p>
                   <p>Max es un perro lleno de energía, amoroso y juguetón. Le encanta salir a caminar y jugar con otros perros. ¡Es perfecto para una familia activa!</p>
-                  <a href="#adoptar-max" class="btn-adoptar">Adoptar a Max</a>
+                  <a href="#formAdopcion" class="btn-adoptar">Adoptar a Max</a>
                 </div>
                 <div class="animal">
                   <img src="luna.jpg" alt="Luna" class="foto-animal">
                   <h3>Luna - Husky simpática</h3>
                   <p><strong>Edad:</strong> 5 años</p>
                   <p>Luna es muy cariñosa, tranquila y disfruta de las siestas al sol. Necesita un hogar que le dé mucho amor y cuidados especiales para su pelaje.</p>
-                  <a href="#adoptar-luna" class="btn-adoptar">Adoptar a Luna</a>
+                  <a href="##formAdopcion" class="btn-adoptar">Adoptar a Luna</a>
                 </div>
                 <div class="animal">
                   <img src="rocky.jpg" alt="Rocky" class="foto-animal">
                   <h3>Rocky - Pitbull valiente</h3>
                   <p><strong>Edad:</strong> 2 años</p>
                   <p>Rocky es un perro muy protector y leal. Busca una familia que le dé mucha atención y espacio para correr.</p>
-                  <a href="#adoptar-rocky" class="btn-adoptar">Adoptar a Rocky</a>
+                  <a href="#formAdopcion" class="btn-adoptar">Adoptar a Rocky</a>
                 </div>
                 <!-- Repite el bloque para más animales disponibles -->
               </div>
@@ -93,8 +93,124 @@
               <h2>¿Tienes Preguntas?</h2>
               <p>Si tienes alguna duda sobre el proceso de adopción o necesitas más información sobre un animal, ¡no dudes en contactarnos! Estaremos encantados de ayudarte.</p>
           <div class="divContacto">
-              <a href="#formulario-contacto" class="btn-contacto">Formulario de Contacto</a></div>
+              <a href="#formulario-contacto" class="btn-contacto" id="formAdopcion" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Formulario de Adopcion</a></div>
             </div>
+
+
+<!-- Modal -->
+<div class="modal fade modal-lg" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Formulario Adopcion</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- <section class="formulario-adopcion" id="formulario"> -->
+          <div class="container">
+            <h2>Formulario de Adopción</h2>
+            <p>Gracias por considerar la adopción de uno de nuestros peluditos. Por favor, completa este formulario para iniciar el proceso de adopción.</p>
+            
+            <form action="/procesar-adopcion" method="POST" class="formulario">
+              <!-- Información personal -->
+              <h3>Información Personal</h3>
+              <div class="campo">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" required>
+              </div>
+              
+              <div class="campo">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+        
+              <div class="campo">
+                <label for="telefono">Número de Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" required>
+              </div>
+        
+              <div class="campo">
+                <label for="direccion">Dirección Completa</label>
+                <input type="text" id="direccion" name="direccion" required>
+              </div>
+        
+              <!-- Información sobre el hogar -->
+              <h3>Información sobre tu hogar</h3>
+              <div class="campo">
+                <label for="tipo-casa">¿Vives en una casa o departamento?</label>
+                <select id="tipo-casa" name="tipo-casa" required>
+                  <option value="">Selecciona una opción</option>
+                  <option value="Casa">Casa</option>
+                  <option value="Departamento">Departamento</option>
+                </select>
+              </div>
+        
+              <div class="campo">
+                <label for="espacio">¿Tienes espacio suficiente para un animal (jardín, patio, etc.)?</label>
+                <select id="espacio" name="espacio" required>
+                  <option value="">Selecciona una opción</option>
+                  <option value="Sí">Sí</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+        
+              <div class="campo">
+                <label for="personas-en-casa">¿Cuántas personas viven en tu hogar?</label>
+                <input type="number" id="personas-en-casa" name="personas-en-casa" required>
+              </div>
+        
+              <div class="campo">
+                <label for="otros-animales">¿Tienes otros animales en casa?</label>
+                <select id="otros-animales" name="otros-animales" required>
+                  <option value="">Selecciona una opción</option>
+                  <option value="Sí">Sí</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+        
+              <!-- Información sobre el animal -->
+              <h3>Información sobre el animal que deseas adoptar</h3>
+              <div class="campo">
+                <label for="nombre-animal">Nombre del animal que deseas adoptar</label>
+                <input type="text" id="nombre-animal" name="nombre-animal" required>
+              </div>
+        
+              <div class="campo">
+                <label for="razon-adopcion">¿Por qué deseas adoptar a este animal?</label>
+                <textarea id="razon-adopcion" name="razon-adopcion" required></textarea>
+              </div>
+        
+              <div class="campo">
+                <label for="experiencia">¿Tienes experiencia previa con animales?</label>
+                <select id="experiencia" name="experiencia" required>
+                  <option value="">Selecciona una opción</option>
+                  <option value="Sí">Sí</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+        
+              <!-- Compromiso -->
+              <div class="campo">
+                <label for="compromiso">
+                  <input type="checkbox" id="compromiso" name="compromiso" required>
+                  Acepto el compromiso de cuidar al animal adoptado de manera responsable.
+                </label>
+              </div>
+        
+              <!-- Enviar formulario -->
+              <div class="campo">
+                <button type="submit" class="btn-enviar">Enviar Solicitud</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+      <div class="modal-footer">
+
+      </div>
+    </div>
+  </div>
+</div>
           </section>
 
     </main>
