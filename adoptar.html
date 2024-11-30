@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <!-- CUSTOM  CSS -->
      <link rel="stylesheet" href="css/estilos.css">
+     <link rel="stylesheet" href="css/responsive.css">
 <!-- FAVICON -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
      
@@ -28,11 +29,37 @@
         
     </div>
         <nav class="navHeader">
-            <a class="navLinks" href="">Adopciones</a>
-            <a class="navLinks" href="">Ayudanos</a>
-            <a class="navLinks" href="">Acerca de</a>
-            <a href=""><input class="btnContacto" type="button" value="contacto"></a>
+          <a class="navLinks" href="adoptar.html">Adopciones</a>
+          <a class="navLinks" href="ayudar.html">Ayudanos</a>
+          <a class="navLinks" href="nosotros.html">Acerca de</a>
+          <a href="contacto.html" class="btnContacto">Contacto</a>
         </nav>
+        <div class="navMobile">
+          <nav class="navbar bg-azul border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="adoptar.html">Adopcion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ayudar.html">Ayudanos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Acerca de</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
     </header>
     <main>
         <section class="adopcion">

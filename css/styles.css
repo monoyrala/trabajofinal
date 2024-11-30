@@ -11,20 +11,20 @@ body {
     color: #2A3663;
   }
   
-  #donation-options, #donation-cart {
+  /* #donation-options, #donation-cart {
     width: 300px;
     margin-top: 20px;
     padding: 20px;
     border: 1px solid #b59f78;
     border-radius: 5px;
     background-color: #FFF;
-  }
+  } */
   
-  .donation-item {
+  /* .donation-item {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-  }
+  } */
   
   button {
     background-color: #2A3663;
