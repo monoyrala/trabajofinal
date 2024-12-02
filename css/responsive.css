@@ -45,6 +45,14 @@
       width: 100%;
     }
 
+    .mapa-contacto {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 2rem;
+    }
+
   }
 
 @media (max-width:512px){
